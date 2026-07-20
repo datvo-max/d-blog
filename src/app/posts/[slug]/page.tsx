@@ -40,7 +40,7 @@ interface TocItem {
 function extractToc(content: string): TocItem[] {
   const slugger = new GithubSlugger();
   const headings = content.match(/^(#{2,3})\s+(.+)$/gm);
-  
+
   if (!headings) return [];
 
   return headings.map((heading) => {
@@ -73,7 +73,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           <ChevronLeft className="w-4 h-4 mr-1" />
           Quay lại trang chủ
         </Link>
-        
+
         <header className="border-b border-gray-200 pb-6 space-y-4">
           <h1 className="text-3xl md:text-4xl font-bold text-text-main">{post.meta.title}</h1>
           <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
@@ -109,13 +109,28 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             prose-strong:text-text-main
             prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-gray-50 prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:not-italic prose-blockquote:text-gray-700
             prose-li:text-gray-700
-            prose-img:rounded-lg">
-          <ReactMarkdown 
-            remarkPlugins={[remarkGfm]} 
+            prose-img:rounded-lg prose-img:border prose-img:border-gray-200 prose-img:shadow-sm">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeSlug]}
+            components={{
+              img: ({ node, src, alt, ...props }) => {
+                let imgSrc = src;
+                if (imgSrc && imgSrc.startsWith('/')) {
+                  imgSrc = `/d-blog${imgSrc}`;
+                }
+                return <img src={imgSrc} alt={alt} {...props} />;
+              }
+            }}
           >
             {post.content}
           </ReactMarkdown>
+
+          <div className="mt-12 pt-6 border-t border-gray-200 text-right">
+            <p className="text-sm font-medium text-text-main">
+              ✍️ Tác giả: <span className="text-primary font-bold">Đạt Võ</span>
+            </p>
+          </div>
         </div>
       </article>
 
@@ -129,8 +144,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <ul className="space-y-2.5 text-sm border-l border-gray-200 ml-1 pl-4">
               {toc.map((item) => (
                 <li key={item.id} className={item.level === 3 ? "pl-4" : ""}>
-                  <a 
-                    href={`#${item.id}`} 
+                  <a
+                    href={`#${item.id}`}
                     className="text-gray-600 hover:text-accent transition-colors line-clamp-2"
                   >
                     {item.text}
