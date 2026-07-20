@@ -115,8 +115,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             rehypePlugins={[rehypeSlug]}
             components={{
               img: ({ node, src, alt, ...props }) => {
-                let imgSrc = src;
-                if (imgSrc && imgSrc.startsWith('/')) {
+                let imgSrc = src as string | undefined;
+                if (typeof imgSrc === 'string' && imgSrc.startsWith('/')) {
                   imgSrc = `/d-blog${imgSrc}`;
                 }
                 return <img src={imgSrc} alt={alt} {...props} />;

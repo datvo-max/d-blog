@@ -34,3 +34,8 @@ Khi thêm mới một trang (`page.tsx`), không cần định nghĩa lại layo
 - Dự án nhắm đến đối tượng người dùng chủ yếu qua điện thoại (mobile).
 - Mọi thành phần giao diện, layout, bảng biểu, ảnh đều phải tuân thủ nguyên tắc Mobile-first.
 - Đảm bảo Sidebar có thể ẩn/hiện hợp lý trên mobile, nội dung đọc không bị tràn viền và cỡ chữ đủ lớn, dễ đọc trên màn hình nhỏ.
+
+## 5. Quy trình Kiểm tra Code (Pre-push Check)
+
+- **TUYỆT ĐỐI BẮT BUỘC:** Trước khi commit và push code lên GitHub (hoặc nhánh chính), Agent **phải** chạy lệnh `npm run build` để kiểm tra toàn bộ lỗi TypeScript, Next.js build errors.
+- Chỉ đẩy code (push) khi lệnh build thành công hoàn toàn (0 lỗi). Không bao giờ đẩy code đang bị lỗi Type Check lên Production.
