@@ -3,11 +3,10 @@ title: "Hướng dẫn chi tiết 4 bước kích hoạt Tài khoản định da
 date: "2026-07-21"
 category: "VNeID"
 tags: ["VNeID", "Định danh điện tử", "Thủ tục hành chính", "Hướng dẫn"]
-image: "/images/posts/vneid-cover.png"
+image: "/images/vneid-kich-hoat/1.webp"
 summary: "Sau khi làm thủ tục đăng ký VNeID mức 2 tại cơ quan Công an, bạn sẽ nhận được một tin nhắn SMS. Đừng bỏ qua tin nhắn này! Dưới đây là hướng dẫn chi tiết cách tự kích hoạt tài khoản trên điện thoại."
 ---
 
-![Minh hoạ hướng dẫn kích hoạt định danh điện tử mức 2](/images/vneid-kich-hoat/1.webp)
 
 Rất nhiều người sau khi ra cơ quan Công an để lăn tay, chụp ảnh làm định danh mức 2 thì yên tâm đi về và... để đó, đinh ninh rằng tài khoản của mình đã tự động được nâng cấp. Thực tế, quy trình chỉ hoàn tất khi bạn tự tay thực hiện bước **"Kích hoạt tài khoản"** trên ứng dụng VNeID bằng điện thoại cá nhân.
 
