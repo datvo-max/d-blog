@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 
 import Link from "next/link";
+import BackToTop from "@/components/common/BackToTop";
 
 interface DocLayoutProps {
   children: React.ReactNode;
@@ -75,6 +76,7 @@ export default function DocLayout({ children }: DocLayoutProps) {
         </div>
       </main>
 
+      <BackToTop />
     </div>
   );
 }

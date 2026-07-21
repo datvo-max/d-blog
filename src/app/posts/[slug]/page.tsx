@@ -75,6 +75,15 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         </Link>
 
         <header className="border-b border-gray-200 pb-6 space-y-4">
+          {post.meta.image && (
+            <div className="w-full h-64 md:h-80 rounded-xl overflow-hidden shadow-sm border border-gray-200 mb-6">
+              <img
+                src={post.meta.image.startsWith('/') ? `/d-blog${post.meta.image}` : post.meta.image}
+                alt={post.meta.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
           <h1 className="text-3xl md:text-4xl font-bold text-text-main">{post.meta.title}</h1>
           <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
             <div className="flex items-center">

@@ -3,6 +3,7 @@ title: "Đăng ký thường trú cho trẻ theo cha/mẹ chưa bao giờ dễ d
 date: "2026-07-22"
 category: "Luật Cư Trú"
 tags: ["Thường trú", "Thông tư 116/2026/TT-BCA", "VNeID", "Trẻ em"]
+image: "/images/vneid/2.webp"
 summary: "Với hiệu lực của Thông tư 116/2026/TT-BCA, thủ tục nhập khẩu cho con theo cha mẹ đã được số hóa mạnh mẽ. Không còn cảnh ôm 'rừng' giấy tờ đi lại nhiều lần, mọi thứ giờ đây có thể thao tác ngay trên điện thoại."
 ---
 
@@ -22,6 +23,10 @@ Dưới đây là 3 điểm mới mang tính đột phá giúp việc đăng ký
 *   **Tờ khai thay đổi thông tin cư trú:** Áp dụng biểu mẫu thống nhất mới ban hành kèm Thông tư 116/2026/TT-BCA (hệ thống biểu mẫu từ CT01 đến CT16). Đối với trẻ em (người chưa thành niên), trong tờ khai chỉ cần bắt buộc ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ (trừ trường hợp đã có ý kiến đồng ý bằng văn bản).
 *   **Không cần xuất trình lại giấy tờ đã được số hóa:** Nếu thông tin hoặc giấy tờ chứng minh điều kiện đăng ký cư trú của con (ví dụ: Giấy khai sinh) đã có sẵn và được chia sẻ từ Cơ sở dữ liệu quốc gia về dân cư, các cơ sở dữ liệu chuyên ngành hoặc ứng dụng VNeID, cơ quan đăng ký cư trú **không được yêu cầu** công dân nộp hoặc xuất trình lại.
 *   **Đồng bộ dữ liệu nhân thân:** Điều 6 của Thông tư 116 cũng hướng dẫn chi tiết hơn về việc xác định quan hệ với chủ hộ, đảm bảo dữ liệu của trẻ được cập nhật đồng bộ và chính xác nhất vào hệ thống quốc gia.
+
+![Trẻ em có phải đăng ký thường trú không?](/images/vneid/3.png)
+
+*(Ảnh minh hoạ)*
 
 ## 2. Nộp hồ sơ ngay tại nhà qua VNeID
 

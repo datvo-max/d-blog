@@ -1,7 +1,8 @@
 ---
 title: "Vì sao cần phải đăng ký tài khoản định danh điện tử mức độ 2 càng sớm càng tốt?"
 date: "2026-07-21"
-category: "Quản lý hành chính"
+category: "VNeID"
+image: "/images/vneid/1.webp"
 tags: ["VNeID", "Định danh điện tử", "Thủ tục hành chính"]
 summary: "Nhiều người cho rằng chỉ cần thẻ CCCD gắn chip vật lý hoặc tài khoản VNeID mức 1 là đủ. Tuy nhiên, việc chậm trễ nâng cấp lên mức độ 2 sẽ khiến bạn gặp nhiều bất tiện trong giao dịch và thủ tục hành chính."
 ---

@@ -1,7 +1,7 @@
 ---
 title: "VNeID là gì? Phân biệt chi tiết Tài khoản định danh điện tử Mức 1 và Mức 2"
 date: "2026-07-21"
-category: "Quản lý hành chính"
+category: "VNeID"
 tags: ["VNeID", "Định danh điện tử", "Luật Căn cước 2023", "Thủ tục hành chính"]
 summary: "Với sự ra đời của Luật Căn cước 2023 và Nghị định 69/2024/NĐ-CP, VNeID đã trở thành chiếc 'ví giấy tờ số' không thể thiếu. Bài viết giúp bạn phân biệt rõ quyền lợi và cách đăng ký tài khoản Mức 1 và Mức 2."
 ---

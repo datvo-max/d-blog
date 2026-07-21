@@ -11,11 +11,28 @@ export interface PostMeta {
   tags?: string[];
   summary?: string;
   slug: string;
+  image?: string;
 }
 
 export interface Post {
   meta: PostMeta;
   content: string;
+}
+
+function extractFirstImage(content: string): string | undefined {
+  // Match markdown image ![alt](url)
+  const markdownImageMatch = content.match(/!\[.*?\]\((.*?)\)/);
+  if (markdownImageMatch && markdownImageMatch[1]) {
+    return markdownImageMatch[1].trim();
+  }
+
+  // Match HTML <img> tag src
+  const htmlImageMatch = content.match(/<img\s+[^>]*src=["']([^"']+)["']/i);
+  if (htmlImageMatch && htmlImageMatch[1]) {
+    return htmlImageMatch[1].trim();
+  }
+
+  return undefined;
 }
 
 export function getPostBySlug(slug: string): Post | null {
@@ -25,9 +42,12 @@ export function getPostBySlug(slug: string): Post | null {
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);
 
+    const firstImage = extractFirstImage(content);
+
     return {
       meta: {
         ...data,
+        image: data.image || firstImage,
         slug: realSlug,
       } as PostMeta,
       content,
