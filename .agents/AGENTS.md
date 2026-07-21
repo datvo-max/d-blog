@@ -39,3 +39,9 @@ Khi thêm mới một trang (`page.tsx`), không cần định nghĩa lại layo
 
 - **TUYỆT ĐỐI BẮT BUỘC:** Trước khi commit và push code lên GitHub (hoặc nhánh chính), Agent **phải** chạy lệnh `npm run build` để kiểm tra toàn bộ lỗi TypeScript, Next.js build errors.
 - Chỉ đẩy code (push) khi lệnh build thành công hoàn toàn (0 lỗi). Không bao giờ đẩy code đang bị lỗi Type Check lên Production.
+
+## 6. Quy định Commit & Push Git
+
+- **DUY NHẤT 1 COMMIT:** Mỗi yêu cầu hoặc tác vụ hoàn chỉnh của người dùng chỉ được tạo **duy nhất 01 commit** đại diện cho toàn bộ thay đổi.
+- **KHÔNG TẠO COMMIT TRÙNG LẶP:** Luôn sử dụng `git status` kiểm tra kỹ lưỡng trước khi gộp toàn bộ thay đổi vào 1 commit duy nhất (`git add .` và `git commit`). Tuyệt đối không tạo các commit lặt vặt, dư thừa hoặc trùng lặp trong cùng một lần xử lý yêu cầu.
+
