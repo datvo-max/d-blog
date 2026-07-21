@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import DocLayout from "@/components/layout/DocLayout";
 
@@ -23,6 +24,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-KV3PYXQ2M1";
+
   return (
     <html
       lang="vi"
@@ -30,7 +33,9 @@ export default function RootLayout({
     >
       <body className="min-h-full">
         <DocLayout>{children}</DocLayout>
+        {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
     </html>
   );
 }
+
