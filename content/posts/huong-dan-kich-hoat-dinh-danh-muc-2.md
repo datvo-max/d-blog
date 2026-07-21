@@ -1,10 +1,12 @@
 ---
 title: "Hướng dẫn chi tiết 4 bước kích hoạt Tài khoản định danh điện tử mức độ 2 tại nhà"
 date: "2026-07-21"
-category: "Quản lý hành chính"
+category: "VNeID"
 tags: ["VNeID", "Định danh điện tử", "Thủ tục hành chính", "Hướng dẫn"]
 summary: "Sau khi làm thủ tục đăng ký VNeID mức 2 tại cơ quan Công an, bạn sẽ nhận được một tin nhắn SMS. Đừng bỏ qua tin nhắn này! Dưới đây là hướng dẫn chi tiết cách tự kích hoạt tài khoản trên điện thoại."
 ---
+
+![Minh hoạ hướng dẫn kích hoạt định danh điện tử mức 2](/images/vneid-kich-hoat/1.webp)
 
 Rất nhiều người sau khi ra cơ quan Công an để lăn tay, chụp ảnh làm định danh mức 2 thì yên tâm đi về và... để đó, đinh ninh rằng tài khoản của mình đã tự động được nâng cấp. Thực tế, quy trình chỉ hoàn tất khi bạn tự tay thực hiện bước **"Kích hoạt tài khoản"** trên ứng dụng VNeID bằng điện thoại cá nhân.
 
@@ -59,6 +61,8 @@ Sau khi điền chính xác, bấm nút **"Gửi yêu cầu"**.
 **Bước 4: Thiết lập câu hỏi bảo mật**
 Đây là bước cuối cùng. Hệ thống sẽ yêu cầu bạn chọn 2 câu hỏi bảo mật (Ví dụ: Tên người bạn thân nhất của bạn là gì? Tên thú cưng đầu tiên của bạn?). 
 Hãy chọn những câu hỏi dễ nhớ với bạn và điền câu trả lời. Bước này cực kỳ quan trọng để giúp bạn khôi phục lại mật khẩu nếu lỡ quên sau này.
+
+![Thiết lập câu hỏi bảo mật](/images/vneid-kich-hoat/cau-hoi.webp)
 
 Sau khi hoàn tất, hệ thống sẽ hiện thông báo **"Kích hoạt tài khoản thành công"**. Bạn có thể dùng số CCCD và Mật khẩu vừa tạo để đăng nhập và trải nghiệm các tiện ích của Tài khoản định danh điện tử Mức 2.
 
