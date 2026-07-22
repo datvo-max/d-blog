@@ -15,14 +15,7 @@ Màu trạng thái tiêu chuẩn tài liệu pháp lý:
 - **`danger`** (`#DC2626`): Dùng để nhấn mạnh các hành vi vi phạm, mức phạt, rủi ro pháp lý.
 - **`success`** (`#15803D`): Dùng để chỉ hồ sơ hợp lệ, điều kiện đúng, các bước thành công.
 
-## 2. Layout (Documentation Layout)
 
-Dự án sử dụng cấu trúc **3 cột** làm tiêu chuẩn (đã được định nghĩa trong `src/components/layout/DocLayout.tsx`):
-- **Cột Trái (Sidebar)**: Thanh điều hướng danh mục bài viết, thủ tục hành chính. Nền màu `primary`.
-- **Cột Giữa (Main Content)**: Vùng hiển thị nội dung chính.
-- **Cột Phải (Table of Contents - TOC)**: Hiển thị mục lục bài viết, các headings.
-
-Khi thêm mới một trang (`page.tsx`), không cần định nghĩa lại layout này vì nó đã được bọc trong `app/layout.tsx`. Chỉ tập trung thiết kế phần Nội dung chính (Main Content).
 
 ## 3. Typography & Icons
 
@@ -37,11 +30,5 @@ Khi thêm mới một trang (`page.tsx`), không cần định nghĩa lại layo
 
 ## 5. Quy trình Kiểm tra Code (Pre-push Check)
 
-- **TUYỆT ĐỐI BẮT BUỘC:** Trước khi commit và push code lên GitHub (hoặc nhánh chính), Agent **phải** chạy lệnh `npm run build` để kiểm tra toàn bộ lỗi TypeScript, Next.js build errors.
-- Chỉ đẩy code (push) khi lệnh build thành công hoàn toàn (0 lỗi). Không bao giờ đẩy code đang bị lỗi Type Check lên Production.
-
-## 6. Quy định Commit & Push Git
-
-- **DUY NHẤT 1 COMMIT:** Mỗi yêu cầu hoặc tác vụ hoàn chỉnh của người dùng chỉ được tạo **duy nhất 01 commit** đại diện cho toàn bộ thay đổi.
-- **KHÔNG TẠO COMMIT TRÙNG LẶP:** Luôn sử dụng `git status` kiểm tra kỹ lưỡng trước khi gộp toàn bộ thay đổi vào 1 commit duy nhất (`git add .` và `git commit`). Tuyệt đối không tạo các commit lặt vặt, dư thừa hoặc trùng lặp trong cùng một lần xử lý yêu cầu.
-
+- **TUYỆT ĐỐI BẮT BUỘC:** Trước khi commit và push code lên GitHub (hoặc nhánh chính), Agent **phải** chạy lệnh `npm run build` và `npm run lint` để kiểm tra toàn bộ lỗi TypeScript, Next.js build errors.
+- Chỉ đẩy code (push) khi lệnh build và lint thành công hoàn toàn (0 lỗi). Không bao giờ đẩy code đang bị lỗi Type Check lên Production.

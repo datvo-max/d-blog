@@ -3,7 +3,7 @@ title: "Hướng dẫn chi tiết 4 bước kích hoạt Tài khoản định da
 date: "2026-07-21"
 category: "VNeID"
 tags: ["VNeID", "Định danh điện tử", "Thủ tục hành chính", "Hướng dẫn"]
-image: "/images/vneid-kich-hoat/1.webp"
+image: "/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/1.webp"
 summary: "Sau khi làm thủ tục đăng ký VNeID mức 2 tại cơ quan Công an, bạn sẽ nhận được một tin nhắn SMS. Đừng bỏ qua tin nhắn này! Dưới đây là hướng dẫn chi tiết cách tự kích hoạt tài khoản trên điện thoại."
 ---
 
@@ -31,15 +31,15 @@ Trong bước này, phần mềm sẽ hiển thị 3 trường hợp khác nhau 
 **Trường hợp 1:** Bạn vào ứng dụng VNeID lần đầu tiên
 
 Ngay tại màn hình trang chủ của ứng dụng VNeID (khi chưa đăng nhập), bạn nhìn xuống phía dưới cùng màn hình và bấm vào dòng chữ **"Kích hoạt tài khoản định danh điện tử"**.
-![Đối với bạn vào ứng dụng VNeID lần đầu](/images/vneid-kich-hoat/1.jpg)
+![Đối với bạn vào ứng dụng VNeID lần đầu](/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/1.jpg)
 
 **Trường hợp 2:** Phần mềm hiển thị ô nhập số định danh và mật khẩu
 
-![Phần mềm hiển thị ô nhập số định danh và mật khẩu](/images/vneid-kich-hoat/2.jpg)
+![Phần mềm hiển thị ô nhập số định danh và mật khẩu](/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/2.jpg)
 
 **Trường hợp 3:** Phần mềm lưu tài khoản đăng nhập lần trước đó
 
-![Phần mềm lưu tài khoản đăng nhập lần trước đó](/images/vneid-kich-hoat/3.jpg)
+![Phần mềm lưu tài khoản đăng nhập lần trước đó](/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/3.jpg)
 
 Ở trường hợp 1 và 2, bạn hãy nhấn vào nút có chữ **Kích hoạt** để tiếp tục. Còn ở trường hợp 3, bạn hãy nhấn vào nút **Đổi tài khoản**, khi đó nút **Kích hoạt** sẽ hiện ra.
 
@@ -49,7 +49,7 @@ Hệ thống sẽ yêu cầu bạn điền 2 trường thông tin bắt buộc:
 *   **Số điện thoại:** Là số điện thoại bạn vừa nhận được tin nhắn SMS.
 Sau khi điền chính xác, bấm nút **"Gửi yêu cầu"**.
 
-![Màn hình điền số CCCD và số điện thoại](/images/vneid-kich-hoat/4.jpg)
+![Màn hình điền số CCCD và số điện thoại](/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/4.jpg)
 *(Hình minh họa: Điền chính xác 12 số CCCD và số điện thoại đã đăng ký trước đó)*
 
 **Bước 3: Xác thực mã OTP, Thiết lập Mật khẩu và Passcode**
@@ -62,7 +62,7 @@ Sau khi điền chính xác, bấm nút **"Gửi yêu cầu"**.
 Đây là bước cuối cùng. Hệ thống sẽ yêu cầu bạn chọn 2 câu hỏi bảo mật (Ví dụ: Tên người bạn thân nhất của bạn là gì? Tên thú cưng đầu tiên của bạn?). 
 Hãy chọn những câu hỏi dễ nhớ với bạn và điền câu trả lời. Bước này cực kỳ quan trọng để giúp bạn khôi phục lại mật khẩu nếu lỡ quên sau này.
 
-![Thiết lập câu hỏi bảo mật](/images/vneid-kich-hoat/cau-hoi.webp)
+![Thiết lập câu hỏi bảo mật](/images/posts/huong-dan-kich-hoat-dinh-danh-muc-2/cau-hoi.webp)
 
 Sau khi hoàn tất, hệ thống sẽ hiện thông báo **"Kích hoạt tài khoản thành công"**. Bạn có thể dùng số CCCD và Mật khẩu vừa tạo để đăng nhập và trải nghiệm các tiện ích của Tài khoản định danh điện tử Mức 2.
 

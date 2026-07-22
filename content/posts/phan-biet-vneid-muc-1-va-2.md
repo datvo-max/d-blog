@@ -3,10 +3,11 @@ title: "VNeID là gì? Phân biệt chi tiết Tài khoản định danh điện
 date: "2026-07-21"
 category: "VNeID"
 tags: ["VNeID", "Định danh điện tử", "Luật Căn cước 2023", "Thủ tục hành chính"]
+image: "/images/posts/phan-biet-vneid-muc-1-va-2/4.png"
 summary: "Với sự ra đời của Luật Căn cước 2023 và Nghị định 69/2024/NĐ-CP, VNeID đã trở thành chiếc 'ví giấy tờ số' không thể thiếu. Bài viết giúp bạn phân biệt rõ quyền lợi và cách đăng ký tài khoản Mức 1 và Mức 2."
 ---
 
-![Logo VNeID](/images/vneid-muc-1-va-2/4.png)
+
 
 Với sự ra đời của **Luật Căn cước 2023** và **Nghị định 69/2024/NĐ-CP** (có hiệu lực từ ngày 01/07/2024), tài khoản định danh điện tử trên ứng dụng VNeID đã trở thành "chiếc ví giấy tờ số" không thể thiếu của mỗi công dân. Tuy nhiên, nhiều người vẫn chưa nắm rõ tài khoản định danh điện tử Mức 1 và Mức 2 khác nhau như thế nào, quyền lợi ra sao và cách đăng ký cụ thể là gì.
 
@@ -19,7 +20,7 @@ Bài viết dưới đây sẽ giúp bạn giải đáp toàn bộ các thắc m
 
 > Theo quy định tại Nghị định 69/2024/NĐ-CP, đây là tập hợp gồm tên đăng nhập (số định danh cá nhân/số Căn cước), mật khẩu hoặc hình thức xác thực khác do cơ quan quản lý định danh và xác thực điện tử tạo lập cho cơ quan, tổ chức, cá nhân.
 
-![Giao diện ứng dụng định danh quốc gia VNeID](/images/vneid-muc-1-va-2/2.webp)
+![Giao diện ứng dụng định danh quốc gia VNeID](/images/posts/phan-biet-vneid-muc-1-va-2/2.webp)
 *(Ảnh minh họa: Giao diện ứng dụng định danh quốc gia VNeID)*
 
 ## 2. Phân biệt chi tiết: Tài khoản định danh Mức 1 và Mức 2
@@ -65,7 +66,7 @@ Căn cứ Khoản 1 Điều 10 Nghị định 69/2024/NĐ-CP, công dân thực 
 > *   Có giá trị chứng minh thông tin của các giấy tờ đã được tích hợp thành công trên VNeID (như Giấy phép lái xe, Đăng ký xe, Thẻ BHYT, Mã số thuế...). Khi CSGT hoặc cơ quan y tế yêu cầu kiểm tra, bạn chỉ cần mở VNeID mức 2.
 > *   Sử dụng toàn bộ các tiện ích nâng cao: Thanh toán điện tử, sổ sức khỏe điện tử, lý lịch tư pháp, sổ bảo hiểm xã hội...
 
-![Tích hợp Giấy phép lái xe và BHYT trên VNeID Mức 2](/images/vneid-muc-1-va-2/1.webp)
+![Tích hợp Giấy phép lái xe và BHYT trên VNeID Mức 2](/images/posts/phan-biet-vneid-muc-1-va-2/1.webp)
 *(Ảnh minh họa: Tích hợp Giấy phép lái xe và BHYT trên VNeID Mức 2)*
 
 **📝 Cách thức đăng ký (Làm trực tiếp tại cơ quan Công an)**
@@ -78,7 +79,4 @@ Do yêu cầu bảo mật nghiêm ngặt, tài khoản mức 2 không thể tự
 
 ## 3. Lời khuyên cho người sử dụng
 
-*   **Tuyệt đối bảo mật:** Không cung cấp mật khẩu, mã OTP của ứng dụng VNeID cho bất kỳ ai. Các đối tượng lừa đảo thường mạo danh Công an gọi điện yêu cầu cung cấp thông tin hoặc tải "app giả mạo" để chiếm đoạt tài sản. Cơ quan Công an không bao giờ yêu cầu người dân tải app qua các đường link lạ (chỉ tải từ CH Play hoặc App Store).
-*   **Nên nâng cấp lên Mức 2 sớm:** Việc tích hợp giấy tờ vào VNeID mức 2 không chỉ giúp bạn giảm bớt gánh nặng mang theo ví giấy tờ dày cộm mà còn đề phòng rủi ro mất mát, hư hỏng giấy tờ gốc.
-
-Hy vọng qua bài viết trên, bạn đã nắm rõ được bản chất pháp lý, quyền lợi cũng như cách thức đăng ký từng loại tài khoản định danh điện tử theo quy định mới nhất. Hãy chủ động cài đặt và nâng cấp VNeID để trải nghiệm tối đa các tiện ích của một công dân số!  
+Nên đăng ký Mức 2 càng sớm càng tốt để tận dụng trọn vẹn tiện ích của Chính phủ số.
