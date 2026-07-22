@@ -47,7 +47,7 @@ export function getPostBySlug(slug: string): Post | null {
     return {
       meta: {
         ...data,
-        image: data.image || firstImage,
+        image: data.image || firstImage || "/images/logo-bg.jpg",
         slug: realSlug,
       } as PostMeta,
       content,

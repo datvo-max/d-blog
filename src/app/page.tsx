@@ -28,7 +28,7 @@ export default function Home() {
                 ? post.image.startsWith('/')
                   ? `/d-blog${post.image}`
                   : post.image
-                : null;
+                : '/d-blog/images/logo-bg.jpg';
 
               return (
                 <Link href={`/posts/${post.slug}`} key={post.slug} className="block group flex flex-col h-full">
